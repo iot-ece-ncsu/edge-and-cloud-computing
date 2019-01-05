@@ -1,5 +1,6 @@
 # Edge-and-Cloud-Computing
-Configuring AWS IoT<br /><br />
+##MQTT Implementation using Raspberry Pi and AWS IoT<br /><br />
+###Configuring AWS IoT<br /><br />
 1.Sign in to the AWS IoT console using the following link: https://aws.amazon.com/iot<br />
 2.Click on Get Started<br />
 3.Click on Manage in the left navigation pane and then choose Things<br />
@@ -21,7 +22,7 @@ Configuring AWS IoT<br /><br />
 19.Enter Subscription Topic (say demo-topic), choose Quality of Service as 0 or 1 and click on Subscribe to topic<br /> 
 20.Go to Monitor in Navigation Pane to check messages published and received, successful connections and related statistics<br />
 <br /><br />
-Configuring Raspberry Pi to connect with AWS IoT<br /><br />
+###Configuring Raspberry Pi to connect with AWS IoT<br /><br />
 1.Turn on the Raspberry Pi by connecting it to a power source and let it boot<br />
 2.After it turns on, ensure that it is connected to internet<br />
 3.Verify OpenSSL version is 1.0.1+ by typing the following commands in the Python shell:<br />
@@ -45,7 +46,8 @@ c)Install using pip:<br />
 6.Copy the AWSIoTPythonSDK directory to demo directory<br />
 7.Create a file in the same directory for code of MQTT publisher - mqttpub.py<br />
 <br /> <br />
-Steps to connect PC to Cisco IR800:<br /><br />
+##Introducing Cisco IoT Gateway into MQTT Ecosystem<br /><br />
+###Steps to connect PC to Cisco IR800:<br /><br />
 1.Following packages are required:<br />
   a)Stty<br />
   b)screen<br />
