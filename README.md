@@ -1,7 +1,7 @@
 # Edge-and-Cloud-Computing
-Configuring AWS IoT
-1.Sign in to the AWS IoT console using the following link: https://aws.amazon.com/iot
-2.Click on Get Started
+Configuring AWS IoT<br />
+1.Sign in to the AWS IoT console using the following link: https://aws.amazon.com/iot<br />
+2.Click on Get Started<br />
 3.Click on Manage in the left navigation pane and then choose Things
 4.To proceed with registering a thing with AWS IoT, click on Create at top right corner of the page
 5.Click on Create a single thing
