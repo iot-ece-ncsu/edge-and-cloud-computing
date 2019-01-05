@@ -25,8 +25,8 @@ Configuring Raspberry Pi to connect with AWS IoT<br /><br />
 1.Turn on the Raspberry Pi by connecting it to a power source and let it boot<br />
 2.After it turns on, ensure that it is connected to internet<br />
 3.Verify OpenSSL version is 1.0.1+ by typing the following commands in the Python shell:<br />
->>> import ssl<br />
->>> ssl.OPENSSL_VERSION<br />
+  import ssl<br /> 
+  ssl.OPENSSL_VERSION<br />
 4.Install the AWS IoT Device SDK for Python using any of the following methods:<br />
 a)Install using git:<br />
   i.Open terminal and install git by typing: sudo apt install git-all<br />
