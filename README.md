@@ -59,4 +59,5 @@ c)Install using pip:<br />
     It will return the USB ports emulating the serial connection. Select the 	device which is connected to USB Serial Device     converter, say ttyUSB0<br />
   b)stty -F /dev/ttyUSB0 9600 -cstopb<br />
     It will set the baud rate as 9600<br />
-5.Press Enter<br />
+5.Connect to console by typing: screen /dev/tty<name of the USB interface, say USB0>
+6.Press Enter<br />
